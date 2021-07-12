@@ -19,7 +19,7 @@ def regression():
     np.random.seed(0)
 
     #Read python-cleaned-data-file
-    imdb_data=pd.read_csv('C:\\Users\\Ajay\\PycharmProjects\\IMDB_Data_Science_Project\\Data_Files\\Python-cleaned-file.csv',index_col=0)
+    imdb_data=pd.read_csv('Data_Files\\Python-cleaned-file.csv',index_col=0)
 
     #Remove movies with less than 5000 votes
     relevant_imdb_data=imdb_data[(imdb_data['Votes']>5000)]

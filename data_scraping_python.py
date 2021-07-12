@@ -77,55 +77,55 @@ def scrape(links, ranking, names, release_year, duration, subgenres, user_rating
 
 def links_reading_and_dataframe_setup():
     # Reading action genre movie links file
-    action_url = open("C:\\Users\\Ajay\\PycharmProjects\\IMDB_Data_Science_Project\\Links\\Action.txt", "r")
+    action_url = open("Links\\Action.txt", "r")
     action_links = action_url.readlines()
 
     # Reading animation genre movie links file
-    animation_url = open("C:\\Users\\Ajay\\PycharmProjects\\IMDB_Data_Science_Project\\Links\\Animation(503).txt", "r")
+    animation_url = open("Links\\Animation(503).txt", "r")
     animation_links = animation_url.readlines()
 
     # Reading biography genre movie links file
-    biography_url = open("C:\\Users\\Ajay\\PycharmProjects\\IMDB_Data_Science_Project\\Links\\Biography(775).txt", "r")
+    biography_url = open("Links\\Biography(775).txt", "r")
     biography_links = biography_url.readlines()
 
     # Reading comedy genre movie links file
-    comedy_url = open("C:\\Users\\Ajay\\PycharmProjects\\IMDB_Data_Science_Project\\Links\\Comedy.txt", "r")
+    comedy_url = open("Links\\Comedy.txt", "r")
     comedy_links = comedy_url.readlines()
 
     # Reading crime genre movie links file
-    crime_url = open("C:\\Users\\Ajay\\PycharmProjects\\IMDB_Data_Science_Project\\Links\\Crime.txt", "r")
+    crime_url = open("Links\\Crime.txt", "r")
     crime_links = crime_url.readlines()
 
     # Reading drama genre movie links file
-    drama_url = open("C:\\Users\\Ajay\\PycharmProjects\\IMDB_Data_Science_Project\\Links\\Drama.txt", "r")
+    drama_url = open("Links\\Drama.txt", "r")
     drama_links = drama_url.readlines()
 
     # Reading fantasy genre movie links file
-    fantasy_url = open("C:\\Users\\Ajay\\PycharmProjects\\IMDB_Data_Science_Project\\Links\\Fantasy.txt", "r")
+    fantasy_url = open("Links\\Fantasy.txt", "r")
     fantasy_links = fantasy_url.readlines()
 
     # Reading horror genre movie links file
-    horror_url = open("C:\\Users\\Ajay\\PycharmProjects\\IMDB_Data_Science_Project\\Links\\Horror.txt", "r")
+    horror_url = open("Links\\Horror.txt", "r")
     horror_links = horror_url.readlines()
 
     # Reading mystery genre movie links file
-    mystery_url = open("C:\\Users\\Ajay\\PycharmProjects\\IMDB_Data_Science_Project\\Links\\Mystery.txt", "r")
+    mystery_url = open("Links\\Mystery.txt", "r")
     mystery_links = mystery_url.readlines()
 
     # Reading romance genre movie links file
-    romance_url = open("C:\\Users\\Ajay\\PycharmProjects\\IMDB_Data_Science_Project\\Links\\Romance.txt", "r")
+    romance_url = open("Links\\Romance.txt", "r")
     romance_links = romance_url.readlines()
 
     # Reading sci-fi genre movie links file
-    scifi_url = open("C:\\Users\\Ajay\\PycharmProjects\\IMDB_Data_Science_Project\\Links\\Sci-fi.txt", "r")
+    scifi_url = open("Links\\Sci-fi.txt", "r")
     scifi_links = scifi_url.readlines()
 
     # Reading thriller genre movie links file
-    thriller_url = open("C:\\Users\\Ajay\\PycharmProjects\\IMDB_Data_Science_Project\\Links\\Thriller.txt", "r")
+    thriller_url = open("Links\\Thriller.txt", "r")
     thriller_links = thriller_url.readlines()
 
     # Reading war genre movie links file
-    war_url = open("C:\\Users\\Ajay\\PycharmProjects\\IMDB_Data_Science_Project\\Links\\War (640+).txt", "r")
+    war_url = open("Links\\War (640+).txt", "r")
     war_links = war_url.readlines()
 
     # Action genre column headings
@@ -419,5 +419,5 @@ def links_reading_and_dataframe_setup():
                 romance_df, scifi_df, thriller_df, war_df]
     final = pd.concat(complete)
     # Save the finished file as csv in the local directory for further processing
-    final.to_csv('C:\\Users\\Ajay\\PycharmProjects\\IMDB_Data_Science_Project\\Data_Files\\Pre-cleaned-file.csv')
+    final.to_csv('Data_Files\\Pre-cleaned-file.csv')
 

@@ -2,7 +2,7 @@ import pandas as pd
 
 def data_cleaning():
     #Read in the finished csv file
-    k_initial=pd.read_csv('C:\\Users\\Ajay\\PycharmProjects\\IMDB_Data_Science_Project\\Data_Files\\Pre-cleaned-file.csv')
+    k_initial=pd.read_csv('Data_Files\\Pre-cleaned-file.csv')
     #Convert it to dataframe just to be on the safe side
     k=pd.DataFrame(k_initial)
 
@@ -91,7 +91,7 @@ def data_cleaning():
     k=k.drop_duplicates(subset="Title",keep="first")
 
     #Save the cleaned file to local directory for further use
-    k.to_csv('C:\\Users\\Ajay\\PycharmProjects\\IMDB_Data_Science_Project\\Data_Files\\Python-cleaned-file.csv',index_label=None)
+    k.to_csv('Data_Files\\Python-cleaned-file.csv',index_label=None)
 
 
 

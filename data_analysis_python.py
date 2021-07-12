@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def data_analysis():
-    k=pd.read_csv('C:\\Users\\Ajay\\PycharmProjects\\IMDB_Data_Science_Project\\Data_Files\\Python-cleaned-file.csv')
+    k=pd.read_csv('Data_Files\\Python-cleaned-file.csv')
 
     ### of Titles starting character according to Alphabets#####
 
