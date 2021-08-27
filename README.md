@@ -1,19 +1,10 @@
-# MSR-Assignment-3
-Mining Software Repositories follow-up project to tackle external threat to MSR-Assignment-2 Project. 
+# IMDB Data Science Project-Python
+Data Science project based on IMDB Data for Data Analysis and Prediction(Movie Score) using Python. 
 
-An external validity addressing project as part of the MSR course at MSR course 2020/21 at UniKo, CS department, SoftLang Team 
+A personal project made for practising and learning Data Analysis and Data Science Techniques. 
 
-Please cite the following paper if you intend to know more about the original research 
 
->  **Is Developer Sentiment Related to Software Bugs: An Exploratory Study on GitHub Commits**
-  https://ieeexplore.ieee.org/document/9054801
-  
-> **DBLP Link:**
-  https://dblp.org/rec/conf/wcre/HuqSS20.html
-
-## Baseline:
-
-### Requirements:
+### Requirements to run and test the project:
 
 To run this project, you will need Python3+, pip and Git installed on the system. 
 
@@ -37,12 +28,12 @@ The necessary libraries and packages are specified in the **requirements.txt** f
   Create a local directory in your machine where you want to pull the git project and clone the project by running the below command from cmd 
   (Make sure that you are in the newly created directory first!):
   
-  	```git clone https://github.com/AjayTomar3342/MSR-Assignment-3```
+  	```git clone https://github.com/AjayTomar3342/IMDB_Data_Science_Project```
 
   * **Step 2:**
   From cmd, move into the main folder of the cloned project
   
- 	 ```cd MSR-Assignment-3```
+ 	 ```cd IMDB_Data_Science_Project```
 
   * **Step 3:**
   Execute the below commands to meet the pre-requisites to execute the code
@@ -55,28 +46,19 @@ The necessary libraries and packages are specified in the **requirements.txt** f
       py -m pip install -r requirements.txt
   ```
 
+  
   * **Step 4:**
-  On satisfying the above requirements, move into the Process folder
-  
-	 ```cd Process```
-  
-  * **Step 5:**
   Execute the below commands to run the code from cmd
   
   ``` 
       Unix/macOS
-      python msr_assignment_3.py
+      python main.py
 
       Windows
-      %run msr_assignment_3.py
+      %run main.py
   ```
   
   
-  **NOTE:** 
-  After each run of the code, the **Guava Repository**, **Zsh Repository** and **Power Shell Repository** Folder from the Process folder has to be deleted manually as for each run, GitHub API scrapes updated data and for successfull scraping, older data has to be deleted
-  
-  
-
 ## Alternative Process for acquiring the results(Backup):
 
 For quick running of program, PyCharm use is suggested as it has good controls for removing manual steps to pull a repository and get it running.
@@ -109,13 +91,16 @@ Steps are:
   Select option to start the pulled project in New Window or This window as per your personal preference.
   
   * **Step 9:**
-  After this the project will be up and running and requirements.txt file will automatically install required libraries. Run the file msr_assignment_3.py from Process Folder to get the results
+  After this the project will be up and running and requirements.txt file will automatically install required libraries. Run the file main.py from Root Folder to get the results
 
 This is a quick process to start the testing of GitHub project taken from the Official Jet Brains Website. We have tried this with several PC’s and are confident that this will not give any errors.
 
 > **Link to Above Process Video:**
   https://www.youtube.com/watch?v=ukbvdF5wqPQ&feature=emb_title
-
+  
+  
+  **NOTE:** 
+Since, the libraries used in the project are updated by the original developers regularly, some function/functions may not run as expected. This project will be regularly updated as per the updated libraries requirement, but if project does not run at any give time when you pull the project, it may be due to the library change, rather than a coding issue. 
 
 ## Results:
 
