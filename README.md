@@ -125,5 +125,23 @@ Results are present in two forms: Analysis Results(Graphical) and Regression Res
 
 ### Analysis Results: 
 
+Cleaned Data is analyzed on the following parameters: 
 
+a.) Movie title proportion as per Starting Character.
+b.) Decade Wise Movie Count.
+c.) Most successful Primary Actor with at least 30 movies. 
+d.) Most successful Supporting Actor with at least 15 movies.
+e.) Most successful Directors with at least 20 movies.
+f.) Most successful Secondary Supporting Actor with at least 10 movies.
+g.) Movie proportion according to different genres.
+h.) User votes by consecutive years in the last century.
+i.) Average runtime of movies year wise in the last century.
+j.) Year Wise count of movies. 
+k.) Genre Popularity over the last century.
+
+All these analysis are done using both Python and Power BI. Some of the visuals are shown below: 
+
+<img src="Results/Visual_Result_1.PNG"> 
+<img src="Results/Visual_Result_2.PNG"> 
+<img src="Results/Visual_Result_3.PNG"> 
 
