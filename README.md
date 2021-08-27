@@ -100,7 +100,7 @@ This is a quick process to start the testing of GitHub project taken from the Of
   
   
   **NOTE:** 
-Since, the libraries used in the project are updated by the original developers regularly, some function/functions may not run as expected. This project will be regularly updated as per the updated libraries requirement, but if project does not run at any give time when you pull the project, it may be due to the library change, rather than a coding issue. 
+Since, the libraries used in the project are updated by the original developers regularly, some function/functions may not run as expected. This project will be regularly updated as per the updated libraries requirement, but if project does not run at any give time when you pull the project, it may be due to the library change, rather than a coding issue. This repository is last updated as per latest libraries on 27/08/2021
 
 ## Procedure followed in the Project:
 
