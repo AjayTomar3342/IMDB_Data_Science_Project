@@ -127,17 +127,17 @@ Results are present in two forms: Analysis Results(Graphical) and Regression Res
 
 Cleaned Data is analyzed on the following parameters: 
 
-a.) Movie title proportion as per Starting Character.
-b.) Decade Wise Movie Count.
-c.) Most successful Primary Actor with at least 30 movies. 
-d.) Most successful Supporting Actor with at least 15 movies.
-e.) Most successful Directors with at least 20 movies.
-f.) Most successful Secondary Supporting Actor with at least 10 movies.
-g.) Movie proportion according to different genres.
-h.) User votes by consecutive years in the last century.
-i.) Average runtime of movies year wise in the last century.
-j.) Year Wise count of movies. 
-k.) Genre Popularity over the last century.
+1. Movie title proportion as per Starting Character.
+2. Decade Wise Movie Count.
+3. Most successful Primary Actor with at least 30 movies. 
+4. Most successful Supporting Actor with at least 15 movies.
+5. Most successful Directors with at least 20 movies.
+6. Most successful Secondary Supporting Actor with at least 10 movies.
+7. Movie proportion according to different genres.
+8. User votes by consecutive years in the last century.
+9. Average runtime of movies year wise in the last century.
+10. Year Wise count of movies. 
+11. Genre Popularity over the last century.
 
 All these analysis are done using both Python and Power BI. Some of the visuals are shown below: 
 
@@ -145,3 +145,8 @@ All these analysis are done using both Python and Power BI. Some of the visuals 
 <img src="Results/Visual_Result_2.PNG"> 
 <img src="Results/Visual_Result_3.PNG"> 
 
+### Regression Results:
+
+Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
