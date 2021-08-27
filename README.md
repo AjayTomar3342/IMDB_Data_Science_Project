@@ -145,6 +145,8 @@ All these analysis are done using both Python and Power BI. Some of the visuals 
 <img src="Results/Visual_Result_2.PNG"> 
 <img src="Results/Visual_Result_3.PNG"> 
 
+Above visuals are taken from Power BI Visualization tool which provides better clarity when compared to Python's Matplotlib library.
+
 ### Regression Results:
 
 Metric Scores for Models | Multiple Linear Regression | Lasso Regression | K-Nearest Neighbor | Random Forest Regression
@@ -152,3 +154,20 @@ Metric Scores for Models | Multiple Linear Regression | Lasso Regression | K-Nea
 R2 Score                 | 44.7 | 45.3 | 43.4 | 69.6
 Mean Squared Error	 | 60 | 59.3 | 61.4 | 32.9
 Model Score 		 | 44.2 | 44.7 | 52.7 | 95.7
+
+These scores are calculated on the basis of usage of Python's scikit-learn library. 
+
+To explain the Metrics and their relevance here, the metrics are explained below:
+
+a.) R2 Score/Coefficient of Determination:  Means the % of variation of dependent variable which can be explained by independent variable. More the merrier. 
+
+b.) Mean Squared Error(MSE): MSE measures the average of error squares i.e the average squared difference between the estimated values and true value. Less the better. 
+
+c.) Model Score: Comparing the model predicted values to the actual values which we got by test data. More the number of matching values, the better
+
+  **NOTE:** 
+Please note that these figures and visuals have been taken on 27/8/2021. These may differ from the ones you get once you run this project again as data is scraped again and the whole procedure provides similar yet different results.  
+
+
+
+
