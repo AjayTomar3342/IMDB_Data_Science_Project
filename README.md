@@ -28,12 +28,12 @@ The necessary libraries and packages are specified in the **requirements.txt** f
   Create a local directory in your machine where you want to pull the git project and clone the project by running the below command from cmd 
   (Make sure that you are in the newly created directory first!):
   
-  	```git clone https://github.com/AjayTomar3342/IMDB_Data_Science_Project```
+  	```git clone https://github.com/AjayTomar3342/IMDB_Data_Science_Project_Python```
 
   * **Step 2:**
   From cmd, move into the main folder of the cloned project
   
- 	 ```cd IMDB_Data_Science_Project```
+ 	 ```cd IMDB_Data_Science_Project_Python```
 
   * **Step 3:**
   Execute the below commands to meet the pre-requisites to execute the code
@@ -123,7 +123,7 @@ All csv files mentioned in the above steps are present in the Data_Files folder.
 
 Results are present in two forms: Analysis Results(Graphical) and Regression Results(Numerical). 
 
-# Analysis Results: 
+### Analysis Results: 
 
 
 
