@@ -147,6 +147,8 @@ All these analysis are done using both Python and Power BI. Some of the visuals 
 
 ### Regression Results:
 
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+Metric Scores for Models | Multiple Linear Regression | Lasso Regression | K-Nearest Neighbor | Random Forest Regression
+---                      | --- | --- | --- | ---
+R2 Score                 | 44.7 | 45.3 | 43.4 | 69.6
+Mean Squared Error	 | 60 | 59.3 | 61.4 | 32.9
+Model Score 		 | 44.2 | 44.7 | 52.7 | 95.7
